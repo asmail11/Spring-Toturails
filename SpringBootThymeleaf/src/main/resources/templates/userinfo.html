@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Spring Boot User Info</title>
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+
+<h1>User Details</h1>
+
+<table>
+ <tr> 
+ <th>UserId</th>
+ <th>User Name</th>
+  <th>Gender</th>
+  <th>Married</th>
+  <th>Selected Profile</th>
+ </tr>
+ <tr th:each="user:${allUsers}">
+ <td th:text="${user.userId}">id</td>
+ <td th:text="${user.userName}">Title</td>
+ <td th:text="${user.gender}">Gender</td>
+ <td th:text="${user.married}">Married</td>
+ <td th:text="${user.profile}">Profile</td>
+ </tr>
+</table>
+<a href="#" th:href="@{/user/createuser}">Add User</a>
+</body>
+</html>

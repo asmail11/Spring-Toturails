@@ -1,0 +1,27 @@
+2018-10-30 13:46:56.698  INFO 82742 --- [main] org.imdrmas.SpringBootLoginApplication   : Starting SpringBootLoginApplication on MacBook-Pro-de-drmas.local with PID 82742 (/Users/drmas/eclipse-workspace/SpringBootLogin/target/classes started by drmas in /Users/drmas/eclipse-workspace/SpringBootLogin)
+2018-10-30 13:46:56.709  INFO 82742 --- [main] org.imdrmas.SpringBootLoginApplication   : No active profile set, falling back to default profiles: default
+2018-10-30 13:46:56.945  INFO 82742 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd40a57: startup date [Tue Oct 30 13:46:56 CET 2018]; root of context hierarchy
+2018-10-30 13:47:00.583  INFO 82742 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2018-10-30 13:47:00.631  INFO 82742 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-10-30 13:47:00.632  INFO 82742 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-30 13:47:00.637  INFO 82742 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/drmas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-10-30 13:47:00.725  INFO 82742 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-10-30 13:47:00.726  INFO 82742 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3781 ms
+2018-10-30 13:47:00.812  INFO 82742 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-10-30 13:47:00.816  INFO 82742 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-30 13:47:00.817  INFO 82742 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-30 13:47:00.817  INFO 82742 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-30 13:47:00.817  INFO 82742 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-30 13:47:00.949  INFO 82742 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 13:47:01.223  INFO 82742 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd40a57: startup date [Tue Oct 30 13:46:56 CET 2018]; root of context hierarchy
+2018-10-30 13:47:01.281  INFO 82742 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String org.imdrmas.SpringBootLoginApplication.welcome()
+2018-10-30 13:47:01.287  INFO 82742 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-30 13:47:01.290  INFO 82742 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-30 13:47:01.318  INFO 82742 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 13:47:01.318  INFO 82742 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-30 13:47:01.484  INFO 82742 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-30 13:47:01.541  INFO 82742 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2018-10-30 13:47:01.547  INFO 82742 --- [main] org.imdrmas.SpringBootLoginApplication   : Started SpringBootLoginApplication in 6.781 seconds (JVM running for 10.515)
+2018-10-30 13:47:01.560 ERROR 82742 --- [main] org.imdrmas.SpringBootLoginApplication   : Message Logged at ERROR Level
+2018-10-30 13:47:01.561  WARN 82742 --- [main] org.imdrmas.SpringBootLoginApplication   : Message Logged at WARM Level
+2018-10-30 13:47:01.561  INFO 82742 --- [main] org.imdrmas.SpringBootLoginApplication   : Message Logged at INFO Level

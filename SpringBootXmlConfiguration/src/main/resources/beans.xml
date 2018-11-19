@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+       
+     <!--    xmlns:context="http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd -->
+        
+
+	<!-- <context:component-scan base-package="com.in28minutes.spring.basics"/> -->
+
+	<bean id="messageProviderService" class="org.issamdrmas.service.MessageProviderService">
+		<property name="message" value="HelloWorld!"></property>
+	</bean>
+
+
+</beans>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Oct 29 12:14:38 CET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0166-bf88-6177-00000328bf08 
+on database directory memory:/Users/drmas/eclipse-workspace/TicketBookSpringMangement/testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/Users/drmas/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=/Users/drmas/eclipse-workspace/TicketBookSpringMangement
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
